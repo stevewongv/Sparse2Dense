@@ -1,0 +1,51 @@
+# output dir
+**/work_dirs/
+
+# compilation and distribution
+__pycache__
+_ext
+
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+**__pycache__**
+**build**
+**egg-info**
+**dist**
+data/
+*.pyc
+venv/
+*.idea/
+*.so
+*.yaml
+*.sh 
+*.pkl
+*.zip
+*.bin
+.vscode/
+
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+.vscode
+.python-version
+
+# project dirs
+
+/debug
+/weights
+eval.sh
+
+*.DS_Store
