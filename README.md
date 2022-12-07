@@ -37,7 +37,7 @@ The code of dense object generation still needs to be cleaned. So we first provi
 ### TODO List
 - [ ] Clean and release the code of dense object generation  
 
-### Experimental results
+### Experimental results (Trained on 20% Waymo Open Dataset)
 #### Waymo Open Dataset *Val* set
 | Model    | Veh_L2 | Ped_L2 | Cyc_L2  | Overall mAPH   |
 |------------|----|--------|---------|--------|
