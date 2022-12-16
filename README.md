@@ -1,12 +1,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2211.13067)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=stevewongv/sparse2dense)
 
-# Sparse2Dense: Learning to Densify 3D Features to Boost 3D Object Detection    (NeurIPS 2022)
+# Sparse2Dense: Learning to Densify 3D Features for 3D Object Detection    (NeurIPS 2022)
 
 
 Transfer dense point knowledge from the Dense point 3D Detector (DDet) to the Sparse point 3D Detector (SDet). For more details, please refer to: 
 
-**Sparse2Dense: Learning to Densify 3D Features to Boost 3D Object Detection    [[Paper](https://openreview.net/pdf?id=P6uZ7agiyCT)]** <br />
+**Sparse2Dense: Learning to Densify 3D Features for 3D Object Detection    [[Paper](https://arxiv.org/abs/2211.13067)]** <br />
 Tianyu Wang, Xiaowei Hu, Zhengzhe Liu, and Chi-Wing Fu<br />
 
 <p align="center"> <img src='docs/Teaser.png' align="center" height="230px"> </p>
@@ -63,7 +63,7 @@ The code of dense object generation still needs to be cleaned. So we first provi
 ## Bibtex
 ```
 @inproceedings{wang2022sparse2dense,
-  title={{Sparse2Dense}: Learning to Densify 3D Features to Boost 3D Object Detection   },
+  title={{Sparse2Dense}: Learning to Densify 3D Features for 3D Object Detection   },
   author={Wang, Tianyu and Hu, Xiaowei and Liu, Zhengzje and Fu, Chi-Wing},
   booktitle=NIPS,
   year={2022},
