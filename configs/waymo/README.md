@@ -71,8 +71,8 @@ By default, we finetune a pretrained [one stage model](voxelnet/waymo_centerpoin
 
 | Model   | Veh_L2 | Ped_L2 | Cyc_L2  | Overall MAPH   |
 |---------|--------|--------|---------|------------|
-| [SECOND](voxelnet/waymo_centerpoint_second_3x_interval_5.py) | 59.4 | 48.0 | 55.2 | 49.7 |  
-| [SECOND+S2D](voxelnet/waymo_centerpoint_second_3x_distill_interval_5.py) | 63.5 | 51.1 | 57.0 | 52.9 | 
+| [SECOND](voxelnet/waymo_second_3x_interval_5.py) | 59.4 | 48.0 | 55.2 | 49.7 |  
+| [SECOND+S2D](voxelnet/waymo_second_3x_distill_interval_5.py) | 63.5 | 51.1 | 57.0 | 52.9 | 
 
 #### Waymo Domain Adaption Dataset
 
