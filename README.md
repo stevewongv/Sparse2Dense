@@ -44,7 +44,7 @@ The code of dense object generation still needs to be cleaned. So we first provi
 | [SECOND](configs/waymo/voxelnet/waymo_second_3x_interval_5.py) | 59.4 | 48.0 | 55.2 | 49.7 |  
 | [SECOND+S2D](configs/waymo/voxelnet/waymo_second_3x_distill_interval_5.py) | **63.5** | **51.1** | **57.0** | **52.9** | 
 | [CenterPoint-Pillar](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_interval_5.py) | 64.1 | 61.1 | 59.76 | 57.9 | 
-| [CenterPoint-Pillar+S2D](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5) | **68.1** | **66.4** | **65.3** | **63.1** | 
+| [CenterPoint-Pillar+S2D](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5.py) | **68.1** | **66.4** | **65.3** | **63.1** | 
 | [CenterPoint](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_interval_5.py) | 65.5 | 66.3 | 66.3 | 63.78 |
 | [CenterPoint+S2D](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_distill_interval_5.py)| **68.2** | **70.1** |  **69.3**| **66.9** |
 
