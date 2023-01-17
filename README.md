@@ -41,9 +41,9 @@ The code of dense object generation still needs to be cleaned. So we first provi
 #### Waymo Open Dataset *Val* set
 | Model    | Veh_L2 | Ped_L2 | Cyc_L2  | Overall mAPH   |
 |------------|----|--------|---------|--------|
-| [SECOND](configs/waymo/voxelnet/waymo_centerpoint_second_3x_interval_5.py) | 59.4 | 48.0 | 55.2 | 49.7 |  
-| [SECOND+S2D](configs/waymo/voxelnet/waymo_centerpoint_second_3x_distill_interval_5.py) | **63.5** | **51.1** | **57.0** | **52.9** | 
-| [CenterPoint-Pillar](configs/waymo/pp/waymo_centerpoint_pp_two_pfn_stride1_3x_distill_interval_5.py) | 64.1 | 61.1 | 59.76 | 57.9 | 
+| [SECOND](configs/waymo/voxelnet/waymo_second_3x_interval_5.py) | 59.4 | 48.0 | 55.2 | 49.7 |  
+| [SECOND+S2D](configs/waymo/voxelnet/waymo_second_3x_distill_interval_5.py) | **63.5** | **51.1** | **57.0** | **52.9** | 
+| [CenterPoint-Pillar](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_interval_5.py) | 64.1 | 61.1 | 59.76 | 57.9 | 
 | [CenterPoint-Pillar+S2D](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5) | **68.1** | **66.4** | **65.3** | **63.1** | 
 | [CenterPoint](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_interval_5.py) | 65.5 | 66.3 | 66.3 | 63.78 |
 | [CenterPoint+S2D](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_distill_interval_5.py)| **68.2** | **70.1** |  **69.3**| **66.9** |
@@ -53,12 +53,12 @@ The code of dense object generation still needs to be cleaned. So we first provi
 
 | Model  | Veh_L2 mAP | Veh_L2 mAPH |  Ped_L2 mAP | Ped_L2 mAPH   |      
 |------------|----|----|----|---------|
-| [SECOND](configs/waymo/voxelnet/waymo_centerpoint_second_3x_interval_5.py) | 42.9 | 41.2 | 9.8 | 8.5 | 
-| [SECOND+S2D](configs/waymo/voxelnet/waymo_centerpoint_second_3x_distill_interval_5.py) | **46.3** | **45.0** |  **12.2**| **10.7**|
-| [CenterPoint-Pillar](configs/waymo/pp/waymo_centerpoint_pp_two_pfn_stride1_3x_distill_interval_5.py) | 45.3 | 44.6 | 8.8 | 7.3 | 
-| [CenterPoint-Pillar+S2D](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5) |  **50.1** | **49.6** |  **13.3** | **11.4**|
-| [CenterPoint](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_interval_5.py) | 48.4 | 47.9 | 21.2 | 19.8 | 
-| [CenterPoint+S2D](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_distill_interval_5.py) | **51.0** | **50.4** |  **26.0**| **24.7**|
+| [SECOND](configs/waymo/voxelnet/waymo_second_3x_interval_5_da.py) | 42.9 | 41.2 | 9.8 | 8.5 | 
+| [SECOND+S2D](configs/waymo/voxelnet/waymo_second_3x_distill_interval_5_da.py) | **46.3** | **45.0** |  **12.2**| **10.7**|
+| [CenterPoint-Pillar](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_interval_5_da.py) | 45.3 | 44.6 | 8.8 | 7.3 | 
+| [CenterPoint-Pillar+S2D](configs/waymo/pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5_da.py) |  **50.1** | **49.6** |  **13.3** | **11.4**|
+| [CenterPoint](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_interval_5_da.py) | 48.4 | 47.9 | 21.2 | 19.8 | 
+| [CenterPoint+S2D](configs/waymo/voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_distill_interval_5_da.py) | **51.0** | **50.4** |  **26.0**| **24.7**|
 
 ## Bibtex
 ```
