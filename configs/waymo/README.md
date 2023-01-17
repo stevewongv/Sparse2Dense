@@ -45,8 +45,8 @@ By default, we finetune a pretrained [one stage model](voxelnet/waymo_centerpoin
 
 | Model   | Split | Veh_L2 mAP | Veh_L2 mAPH |  Ped_L2 mAP | Ped_L2 mAPH   |      
 |------------|----|----|----|----|---------|
-| [CenterPoint](voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_interval_5.py) | Val | 48.4 | 47.9 | 21.2 | 19.8 | 
-| [CenterPoint+S2D](voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_distill_interval_5.py) | Val| 51.0 | 50.4 |  26.0| 24.7|
+| [CenterPoint](voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_interval_5_da.py) | Val | 48.4 | 47.9 | 21.2 | 19.8 | 
+| [CenterPoint+S2D](voxelnet/two_stage/waymo_centerpoint_voxelnet_two_stage_distill_interval_5_da.py) | Val| 51.0 | 50.4 |  26.0| 24.7|
 
 
 ### Two-stage PointPillars 
@@ -56,14 +56,14 @@ By default, we finetune a pretrained [one stage model](voxelnet/waymo_centerpoin
 | Model   | Veh_L2 | Ped_L2 | Cyc_L2  | Overall mAPH   | 
 |---------|--------|--------|---------|--------|
 | [CenterPoint-Pillar](pp/waymo_centerpoint_pp_two_pfn_stride1_3x_distill_interval_5.py) | 64.1 | 61.1 | 59.76 | 57.9 | 
-| [CenterPoint-Pillar+S2D](pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5) | 68.1 | 66.4 | 65.3 | 63.1 | 
+| [CenterPoint-Pillar+S2D](pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5.py) | 68.1 | 66.4 | 65.3 | 63.1 | 
 
 #### Waymo Domain Adaption Dataset
 
 | Model   | Split | Veh_L2 mAP | Veh_L2 mAPH |  Ped_L2 mAP | Ped_L2 mAPH   |      
 |------------|----|----|----|----|---------|
-| [CenterPoint-Pillar](pp/waymo_centerpoint_pp_two_pfn_stride1_3x_distill_interval_5.py) | Val | 45.3 | 44.6 | 8.8x | 7.3 | 
-| [CenterPoint-Pillar+S2D](pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5) | Val| 50.1 | 49.6 |  13.3 | 11.4|
+| [CenterPoint-Pillar](pp/waymo_centerpoint_pp_two_pfn_stride1_3x_distill_interval_5_da.py) | Val | 45.3 | 44.6 | 8.8x | 7.3 | 
+| [CenterPoint-Pillar+S2D](pp/two_stage/waymo_centerpoint_pp_two_pfn_stride1_two_stage_bev_distill_interval_5_da.py) | Val| 50.1 | 49.6 |  13.3 | 11.4|
 
 ## SECOND
 
@@ -78,5 +78,5 @@ By default, we finetune a pretrained [one stage model](voxelnet/waymo_centerpoin
 
 | Model   | Split | Veh_L2 mAP | Veh_L2 mAPH |  Ped_L2 mAP | Ped_L2 mAPH   |      
 |------------|----|----|----|----|---------|
-| [SECOND](voxelnet/waymo_centerpoint_second_3x_interval_5.py) | Val | 42.9 | 41.2 | 9.8 | 8.5 | 
-| [SECOND+S2D](voxelnet/waymo_centerpoint_second_3x_distill_interval_5.py) | Val| 46.3 | 45.0 |  12.2| 10.7|
+| [SECOND](voxelnet/waymo_second_3x_interval_5_da.py) | Val | 42.9 | 41.2 | 9.8 | 8.5 | 
+| [SECOND+S2D](voxelnet/waymo_second_3x_distill_interval_5_da.py) | Val| 46.3 | 45.0 |  12.2| 10.7|
