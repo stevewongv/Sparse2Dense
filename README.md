@@ -64,7 +64,7 @@ The code of dense object generation still needs to be cleaned. So we first provi
 ```
 @inproceedings{wang2022sparse2dense,
   title={{Sparse2Dense}: Learning to Densify 3D Features for 3D Object Detection   },
-  author={Wang, Tianyu and Hu, Xiaowei and Liu, Zhengzje and Fu, Chi-Wing},
+  author={Wang, Tianyu and Hu, Xiaowei and Liu, Zhengzhe and Fu, Chi-Wing},
   booktitle=NIPS,
   year={2022},
 }
